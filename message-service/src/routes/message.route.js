@@ -1,5 +1,5 @@
 import express from "express";
-import { getMessages, getUsersForSidebar, sendMessage } from "../controllers/message.controller.js";
+import { getMessages, getUsersForSidebar, sendMessage } from "../service/messageService.js";
 import isAuthenticated from "../../../isAuthenticated.js";
 
 const router = express.Router();
